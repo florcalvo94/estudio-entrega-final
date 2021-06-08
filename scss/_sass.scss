@@ -1,0 +1,31 @@
+@mixin headerText($font, $size, $color, $transform) {
+  font-size: $size;
+  font-family: $font;
+  color: $color;
+  text-transform: $transform;
+}
+
+
+@mixin buttons($background, $color, $border, $radius ,$transform, $weight) {
+background-color: $background; 
+color: $color;
+border: $border;
+border-radius: $radius;
+text-transform: $transform;
+font-weight: $weight; 
+}
+
+$textStyle: shadowy;
+h4 {
+  @if $textStyle == shadowy {
+    text-shadow: 1px 1px 2px black;;
+ } @else if $textStyle == normal {
+   text-shadow: none;
+   color: darkgrey;
+ } @else if $textStyle == bigger {
+   font-size: 20px;
+ } @else {
+   color: black;
+ }
+}
+ 

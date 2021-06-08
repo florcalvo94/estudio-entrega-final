@@ -1,0 +1,92 @@
+/*registrarse*/
+
+.registrarse__form {
+  background-color: rgba(241, 241, 241, 0.74);
+  padding: 1em;
+  margin: 1em;
+  margin-left: 6em;
+  line-height: 2em;
+  font-family: "lato";
+  text-transform: uppercase;
+  font-weight: 700;
+  
+}
+.registrarse__text {
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: justify;
+  font-size: 1.2em;
+  font-family: "lato";
+  margin-left: 5em;
+  
+}
+.registrarse__title {
+ margin-left: 3.5em;
+ margin-bottom: 1em;
+}
+
+.form-control {
+  margin-top: 1.5em;
+}
+
+#submitBtn {
+  background-color: yellow;
+  color: white;
+  font-family: "lato";
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 14em;
+  margin-top: 1em;
+}
+
+.registrarse__image {
+  background-color: #777;
+  opacity: 0.8;
+  position: relative;
+  margin-left: 6em;
+}
+
+.registrarse__overlay {
+  background-image: url(../images/registrarse.jpg);
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+}
+
+.registrarse__fa {
+  color: white;
+}
+.registrarse__facebook {
+  background-color: rgb(66,103,178);
+  color:white;
+}
+.registrarse__twitter {
+  background-color: #00acee;
+  color:white;
+  
+}
+.registrarse__gmail {
+  background-color: #db4a39 ;
+  color:white;
+  
+}
+.registrarse__item {
+  color:white;
+  margin: 1em;
+  text-decoration: none;
+}
+.registrarse__redes {
+  margin: 1em;
+  margin-top: 3em;
+  margin-left: 7em;
+}
+.registrarse__iniciar{
+  margin-top: 3em;
+  margin-left: 13em;
+}
+

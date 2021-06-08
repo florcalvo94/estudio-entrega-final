@@ -1,0 +1,162 @@
+/*contacto */
+.contacto__form {
+    background-color: black;
+    opacity: 0.4;
+    color: white;
+    border-radius: 0.5em;
+    line-height: 2em;
+    padding: 0.3em;
+    text-transform: uppercase;
+
+}
+
+.contacto__input {
+    
+    width: 20em;
+    padding: 0.1em;       
+}
+.contacto__input--correo {
+    width: 20em;
+    
+    
+}
+.contacto__input--consulta {
+    width: 20.5em;
+
+}
+.contacto__btn {
+    background-color: $importantText;
+    color: white;
+    border-radius: 1em;
+    border: none;
+    padding: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 3.5em;
+}
+
+.contacto__text {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 1em; 
+    text-shadow: 2px 2px 5px black;
+}
+.contacto__redes {
+    list-style: none;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    background-color: rgb(246, 240, 240);
+    width: 20em;
+    margin-left: 0.5em;
+          
+
+}
+.contacto__redes a{
+    text-decoration: none;
+    color: $importantText;
+    margin: 0.4em;
+    padding: 0.5em; 
+   
+}
+
+
+.contacto__redes--title {
+    text-transform: uppercase;
+    color: $importantText;
+    
+}
+.contacto__redes--text {
+    margin-left: 2.5em;
+    padding-bottom: 1em;
+    
+}
+
+@media(min-width:700px) {
+.contacto__form {
+    background-color: black;
+    opacity: 0.4;
+    color: white;
+    border-radius: 0.5em;
+    padding: 2em;
+    margin: 3em;
+    margin-left: 6em;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 2em;
+}
+.contacto__formtitle {
+    font-size: 2em;
+}
+.contacto__item{
+    margin: 1em;
+}
+
+.contacto__input {
+    margin: 0.5em;
+    width: 20em;
+    padding: 0.1em;       
+}
+.contacto__input--correo {
+    width: 25em;
+    margin-top: 5em;
+    margin: 0;
+    height: 2em;
+    padding: 1em;
+
+}
+.contacto__input--consulta {
+    width: 25em;
+
+}
+
+.contacto__btn {
+    margin-left: 8em;
+    background-color: $importantText;
+    color: white;
+    border-radius: 1em;
+    border: none;
+    padding: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.contacto__text {
+    color: white;
+    font-size: 3em;
+    font-weight: 500;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 2em; 
+    text-shadow: 2px 2px 5px black;
+}
+.contacto__redes {
+    list-style: none;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 600;
+        background-color: rgb(246, 240, 240);
+        width: 20em;
+        margin-left: 10em;
+          
+
+}
+.contacto__redes a{
+    text-decoration: none;
+    color: $importantText;
+    margin: 0.4em;
+    padding: 0.5em; 
+   
+}
+
+
+.contacto__redes--title {
+    text-transform: uppercase;
+    color:$importantText;
+    
+}
+.contacto__redes--text {
+    margin-left: 2.5em;
+    padding-bottom: 1em;
+    
+}
+}

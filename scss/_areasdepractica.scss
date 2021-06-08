@@ -1,0 +1,11 @@
+ /*AREAS DE PRACTICA*/
+
+ .practicas__box {
+  background-color: rgb(255, 251, 251);
+  margin: 3em;
+  animation: practicas__box 1s;
+}
+
+.practicas__box:hover {
+transform: scale(1.20);
+}

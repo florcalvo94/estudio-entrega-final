@@ -1,0 +1,48 @@
+
+/*PROFESIONALES*/
+.profesionales__title {
+   margin:0.5em;
+   text-align: center;
+}
+.profesionales__image {
+   width: 12em;
+   height: 15em;
+   border-radius: 0.4em;
+   margin: 2em;
+   box-shadow:  3px 3px 10px rgb(241, 238, 238);
+}
+.profesionales__btn {
+   @include buttons (rgb(245, 230, 95),white, none,0.5em,uppercase,600);
+   text-decoration: none;    
+   padding: 0.3em;
+   margin-top: 1.5em;
+   margin: 1em;
+   padding: 1em;
+}
+.profesionales__redes a {
+   text-decoration: none;
+   background-color: rgb(245, 230, 95);
+   color: white;
+   margin: 0.2em;
+   padding: 1em;
+}
+.profesionales__box {
+   background-color: rgb(255, 251, 251);
+   padding: 1em;
+   border-radius: 0.5em;
+   box-shadow:  3px 3px 10px rgb(241, 238, 238);
+}
+
+@media(min-width:700px) {
+   .profesionales__redes a {
+      margin: 1em;
+   }
+   .profesionales__title {
+      margin:2em;
+      text-align: center;
+   }
+   .profesionales__btn{
+      @include buttons (rgb(245, 230, 95),white, none,0.5em,uppercase,600)
+   };
+}
+

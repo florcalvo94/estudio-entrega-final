@@ -2,14 +2,65 @@
 
 .registrarse__form {
   background-color: rgba(241, 241, 241, 0.74);
-  padding: 1em;
-  margin: 1em;
-  margin-left: 6em;
-  line-height: 2em;
   font-family: "lato";
   text-transform: uppercase;
   font-weight: 700;
+  padding: 0.3em;
+ 
+}
+
+.form-control {
+  margin-top: 1em;
+}
+
+#submitBtn {
+  margin:auto;
+  background-color: $importantText;
+  color: white;
+  font-family: "lato";
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.registrarse__fa {
+  color: white;
+}
+.registrarse__facebook {
+  background-color: rgb(66,103,178);
+  color:white;
+}
+.registrarse__twitter {
+  background-color: #00acee;
+  color:white;
   
+}
+.registrarse__gmail {
+  background-color: #db4a39 ;
+  color:white;
+  
+}
+.registrarse__item {
+  color:white;
+  margin: 1em;
+  text-decoration: none;
+}
+.registrarse__redes {
+  margin: 1em;
+  margin-top: 3em;
+}
+.registrarse__iniciar{
+  margin-top: 3em;
+}
+
+
+@media(min-width:700px) {
+.registrarse__form {
+  padding: 2em;
+  margin: 1em;
+  margin-left: 6em;
+  line-height: 2em;
 }
 .registrarse__text {
   margin-left: 1em;
@@ -30,11 +81,6 @@
 }
 
 #submitBtn {
-  background-color: yellow;
-  color: white;
-  font-family: "lato";
-  text-transform: uppercase;
-  font-weight: 700;
   margin-left: 14em;
   margin-top: 1em;
 }
@@ -90,3 +136,4 @@
   margin-left: 13em;
 }
 
+}

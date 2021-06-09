@@ -9,8 +9,7 @@ h4 {
 /*HEADER MOBILE*/
 .header__logo {
   height: 7em;
-  width: 15em;
-  margin-left: 6.8em; }
+  width: 15em; }
 
 .header__consulta {
   text-transform: uppercase;
@@ -217,6 +216,11 @@ h6 {
   margin: 1em;
   padding: 1em; }
 
+@media (min-width: 700px) {
+  .practicas__image {
+    height: 3em;
+    width: 3em; } }
+
 /*ABOUT US escritorio y mobile*/
 .aboutUs__foto {
   background-color: #777;
@@ -277,23 +281,20 @@ h6 {
 
 /*contacto */
 .contacto__form {
-  background-color: black;
-  opacity: 0.4;
+  background-color: darkgrey;
   color: white;
   border-radius: 0.5em;
   line-height: 2em;
   padding: 0.3em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 0.9em; }
+
+label {
+  padding: 0.5em;
+  width: 7em; }
 
 .contacto__input {
-  width: 20em;
-  padding: 0.1em; }
-
-.contacto__input--correo {
   width: 20em; }
-
-.contacto__input--consulta {
-  width: 20.5em; }
 
 .contacto__btn {
   background-color: #faef5b;
@@ -318,34 +319,34 @@ h6 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
   background-color: #f6f0f0;
-  width: 20em;
-  margin-left: 0.5em; }
+  width: 24em;
+  margin-left: 0.5em;
+  margin-right: 0.5em; }
 
 .contacto__redes a {
   text-decoration: none;
   color: #faef5b;
+  text-shadow: 2px 2px 5px #807c7c;
   margin: 0.4em;
   padding: 0.5em; }
 
 .contacto__redes--title {
   text-transform: uppercase;
-  color: #faef5b; }
+  color: #faef5b;
+  text-shadow: 2px 2px 2px #807c7c; }
 
 .contacto__redes--text {
   margin-left: 2.5em;
-  padding-bottom: 1em; }
+  padding-bottom: 1em;
+  color: white;
+  text-shadow: 2px 2px 2px #5f5c5c; }
 
 @media (min-width: 700px) {
   .contacto__form {
-    background-color: black;
-    opacity: 0.4;
-    color: white;
-    border-radius: 0.5em;
     padding: 2em;
     margin: 3em;
     margin-left: 6em;
     text-align: left;
-    text-transform: uppercase;
     font-weight: 700;
     line-height: 2em; }
   .contacto__formtitle {
@@ -356,45 +357,14 @@ h6 {
     margin: 0.5em;
     width: 20em;
     padding: 0.1em; }
-  .contacto__input--correo {
-    width: 25em;
-    margin-top: 5em;
-    margin: 0;
-    height: 2em;
-    padding: 1em; }
-  .contacto__input--consulta {
-    width: 25em; }
   .contacto__btn {
-    margin-left: 8em;
-    background-color: #faef5b;
-    color: white;
-    border-radius: 1em;
-    border: none;
-    padding: 1em;
-    text-transform: uppercase;
-    font-weight: 600; }
+    margin-left: 8em; }
   .contacto__text {
-    color: white;
-    font-size: 3em;
-    font-weight: 500;
-    font-family: "Source Sans Pro", sans-serif;
-    margin-top: 2em;
-    text-shadow: 2px 2px 5px black; }
+    font-size: 2em;
+    margin-top: 2em; }
   .contacto__redes {
-    list-style: none;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 600;
-    background-color: #f6f0f0;
-    width: 20em;
-    margin-left: 10em; }
-  .contacto__redes a {
-    text-decoration: none;
-    color: #faef5b;
-    margin: 0.4em;
-    padding: 0.5em; }
-  .contacto__redes--title {
-    text-transform: uppercase;
-    color: #faef5b; }
+    width: 24em;
+    margin-left: 7em; }
   .contacto__redes--text {
     margin-left: 2.5em;
     padding-bottom: 1em; } }
@@ -411,54 +381,23 @@ h6 {
 /*registrarse*/
 .registrarse__form {
   background-color: rgba(241, 241, 241, 0.74);
-  padding: 1em;
-  margin: 1em;
-  margin-left: 6em;
-  line-height: 2em;
   font-family: "lato";
   text-transform: uppercase;
-  font-weight: 700; }
-
-.registrarse__text {
-  margin-left: 1em;
-  margin-right: 1em;
-  text-align: justify;
-  font-size: 1.2em;
-  font-family: "lato";
-  margin-left: 5em; }
-
-.registrarse__title {
-  margin-left: 3.5em;
-  margin-bottom: 1em; }
+  font-weight: 700;
+  padding: 0.3em; }
 
 .form-control {
-  margin-top: 1.5em; }
+  margin-top: 1em; }
 
 #submitBtn {
-  background-color: yellow;
+  margin: auto;
+  background-color: #faef5b;
   color: white;
   font-family: "lato";
   text-transform: uppercase;
   font-weight: 700;
-  margin-left: 14em;
-  margin-top: 1em; }
-
-.registrarse__image {
-  background-color: #777;
-  opacity: 0.8;
-  position: relative;
-  margin-left: 6em; }
-
-.registrarse__overlay {
-  background-image: url(../images/registrarse.jpg);
-  background-position: center;
-  background-size: cover;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  opacity: 0.4;
-  position: absolute; }
+  margin-top: 1em;
+  text-align: center; }
 
 .registrarse__fa {
   color: white; }
@@ -482,12 +421,69 @@ h6 {
 
 .registrarse__redes {
   margin: 1em;
-  margin-top: 3em;
-  margin-left: 7em; }
+  margin-top: 3em; }
 
 .registrarse__iniciar {
-  margin-top: 3em;
-  margin-left: 13em; }
+  margin-top: 3em; }
+
+@media (min-width: 700px) {
+  .registrarse__form {
+    padding: 2em;
+    margin: 1em;
+    margin-left: 6em;
+    line-height: 2em; }
+  .registrarse__text {
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: "lato";
+    margin-left: 5em; }
+  .registrarse__title {
+    margin-left: 3.5em;
+    margin-bottom: 1em; }
+  .form-control {
+    margin-top: 1.5em; }
+  #submitBtn {
+    margin-left: 14em;
+    margin-top: 1em; }
+  .registrarse__image {
+    background-color: #777;
+    opacity: 0.8;
+    position: relative;
+    margin-left: 6em; }
+  .registrarse__overlay {
+    background-image: url(../images/registrarse.jpg);
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.4;
+    position: absolute; }
+  .registrarse__fa {
+    color: white; }
+  .registrarse__facebook {
+    background-color: #4267b2;
+    color: white; }
+  .registrarse__twitter {
+    background-color: #00acee;
+    color: white; }
+  .registrarse__gmail {
+    background-color: #db4a39;
+    color: white; }
+  .registrarse__item {
+    color: white;
+    margin: 1em;
+    text-decoration: none; }
+  .registrarse__redes {
+    margin: 1em;
+    margin-top: 3em;
+    margin-left: 7em; }
+  .registrarse__iniciar {
+    margin-top: 3em;
+    margin-left: 13em; } }
 
 /*PROFESIONALES*/
 .profesionales__title {

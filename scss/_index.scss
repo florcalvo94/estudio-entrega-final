@@ -94,7 +94,13 @@ h6 {
   margin: 1em;
   padding: 1em;
 }
+@media(min-width:700px) {
+.practicas__image {
+  height: 3em;
+  width: 3em;
+}
 
+}
 
 
 /*ABOUT US escritorio y mobile*/

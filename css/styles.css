@@ -28,6 +28,9 @@ h4 {
   padding: 0.3em;
   margin-bottom: 1em; }
 
+.navbar-nav li:hover {
+  color: white !important; }
+
 .header__btn:hover {
   transform: scale(1.2); }
 
@@ -55,8 +58,7 @@ h4 {
 .navbar-toggler {
   width: 10em;
   align-self: center;
-  margin: 1em;
-  margin-left: 4em; }
+  margin: 10px auto; }
 
 .navbar-collapse {
   text-align: center; }
@@ -76,11 +78,9 @@ h4 {
     display: none; }
   .navbar-nav li a {
     margin: 0.2em; }
-  .navbar-nav li:hover {
-    color: white; }
   .navbar-nav li a:hover {
     background-color: #f5e65f;
-    color: white;
+    color: white !important;
     border-radius: 0.5em;
     font-weight: 500; }
   .nav-link:hover {
@@ -304,7 +304,8 @@ label {
   padding: 1em;
   text-transform: uppercase;
   font-weight: 600;
-  margin-left: 3.5em; }
+  display: block;
+  margin: 0 auto; }
 
 .contacto__text {
   color: white;
@@ -386,9 +387,6 @@ label {
   font-weight: 700;
   padding: 0.3em; }
 
-.form-control {
-  margin-top: 1em; }
-
 #submitBtn {
   margin: auto;
   background-color: #faef5b;
@@ -397,7 +395,9 @@ label {
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 1em;
-  text-align: center; }
+  text-align: center;
+  display: block;
+  margin: 0 auto; }
 
 .registrarse__fa {
   color: white; }
@@ -428,7 +428,6 @@ label {
 
 @media (min-width: 700px) {
   .registrarse__form {
-    padding: 2em;
     margin: 1em;
     margin-left: 6em;
     line-height: 2em; }
@@ -443,7 +442,7 @@ label {
     margin-left: 3.5em;
     margin-bottom: 1em; }
   .form-control {
-    margin-top: 1.5em; }
+    margin-bottom: 0.5em; }
   #submitBtn {
     margin-left: 14em;
     margin-top: 1em; }

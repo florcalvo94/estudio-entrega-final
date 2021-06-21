@@ -6,11 +6,6 @@
   text-transform: uppercase;
   font-weight: 700;
   padding: 0.3em;
- 
-}
-
-.form-control {
-  margin-top: 1em;
 }
 
 #submitBtn {
@@ -22,6 +17,8 @@
   font-weight: 700;
   margin-top: 1em;
   text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 .registrarse__fa {
@@ -39,7 +36,6 @@
 .registrarse__gmail {
   background-color: #db4a39 ;
   color:white;
-  
 }
 .registrarse__item {
   color:white;
@@ -57,7 +53,6 @@
 
 @media(min-width:700px) {
 .registrarse__form {
-  padding: 2em;
   margin: 1em;
   margin-left: 6em;
   line-height: 2em;
@@ -75,11 +70,9 @@
  margin-left: 3.5em;
  margin-bottom: 1em;
 }
-
-.form-control {
-  margin-top: 1.5em;
-}
-
+ .form-control {
+   margin-bottom: 0.5em;
+ }
 #submitBtn {
   margin-left: 14em;
   margin-top: 1em;

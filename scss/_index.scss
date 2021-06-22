@@ -45,7 +45,7 @@
   font-family:"Source Serif Pro", sans-serif;
   text-shadow: 1px 1px 1.5px rgb(73, 69, 69);
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: 1.3em;
   margin: 0;
   padding: 0;
 }
@@ -54,7 +54,7 @@
   font-family:"Source Serif Pro", sans-serif;
   text-shadow: 1px 1px 1.5px rgb(73, 69, 69);
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: 1.3em;
   font-weight: 600;
 }
 
@@ -164,11 +164,14 @@ h6 {
   opacity: 0.5;
   position: absolute;
 }
-.aboutUs__text {
+.aboutUs__textarea {
   height: 20em;
   background-color: rgb(252, 248, 248);
   padding: 4em;
   font-family: "lato";
+}
+.aboutUs__text {
+  font-size: 1em;
 }
 
 /*numbers */
@@ -188,7 +191,7 @@ h6 {
 }
 .numbers__text {
   font-family: "Lato";
-  font-size: 3em;
+  font-size: 1.5em;
   font-weight: 600; 
 }
 .numbers__title {
@@ -202,5 +205,17 @@ h6 {
   text-align: left;
   align-content: center;
   padding-left: 3em;
-  margin: 3em;   
+  margin: 2em;   
+}
+
+@media(min-width:700px) {
+  .numbers__text {
+    font-family: "Lato";
+    font-size: 3em;
+    font-weight: 600; 
+  }
+  .numbers__item {
+    margin: 3em;   
+  }
+
 }

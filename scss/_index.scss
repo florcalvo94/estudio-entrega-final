@@ -41,7 +41,7 @@
   background-size: cover;
 }
 
-.carousel__text {
+.carousel__text--title {
   font-family:"Source Serif Pro", sans-serif;
   text-shadow: 1px 1px 1.5px rgb(73, 69, 69);
   text-transform: uppercase;
@@ -58,13 +58,14 @@
   font-weight: 600;
 }
 
-p {
+.carousel__text {
   font-size: 0.7em;
 }
 h5 {
   font-family:"Source Serif Pro", sans-serif;
   text-shadow: 1px 1px 1.5px rgb(73, 69, 69);
   text-transform: uppercase;
+  font-size: 2em;
 }
 h1 {
   font-family:"Source Sans Pro", sans-serif;
@@ -86,14 +87,17 @@ h6 {
 
 /*INDEX CAROUSEL ESCRITORIO*/
 @media(min-width:700px) {
-  .carousel__text {
-    font-size: 2em;
+  .carousel__text--title {
+    font-size: 2.2em;
     margin: 0;
     padding: 0;
   }
   .carousel__text--prioridad {
-    font-size: 2em;
+    font-size: 2.4em;
     letter-spacing: 0.05em;
+  }
+  .carousel__text {
+    font-size: 1.2em;
   }
 }
 

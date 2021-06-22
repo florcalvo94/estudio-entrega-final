@@ -1,4 +1,4 @@
-/*INDEX CAROUSEL MOBILE & ESCRITORIO*/
+/*INDEX CAROUSEL MOBILE*/
 .carousel-item {
   background-color:#777;
   height: 15em;
@@ -41,6 +41,21 @@
   background-size: cover;
 }
 
+.carousel__text {
+  font-family:"Source Serif Pro", sans-serif;
+  text-shadow: 1px 1px 1.5px rgb(73, 69, 69);
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel__text--prioridad {
+  font-family:"Source Serif Pro", sans-serif;
+  text-shadow: 1px 1px 1.5px rgb(73, 69, 69);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 h1 {
   font-family:"Source Sans Pro", sans-serif;
   text-shadow: 1px 1px 1.5px rgb(73, 69, 69);
@@ -58,6 +73,20 @@ h6 {
   font-family: 'Source Serif Pro', serif;
   padding: 0.5em;
 }
+
+/*INDEX CAROUSEL ESCRITORIO*/
+@media(min-width:700px) {
+  .carousel__text {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+  }
+  .carousel__text--prioridad {
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+}
+
 
 /*INDEX PRACTICAS MOBILE y escritorio*/
 .practicas {

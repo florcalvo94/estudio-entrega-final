@@ -12,8 +12,8 @@ h4 {
   margin: 0; }
 
 .header__logo {
-  height: 7em;
-  width: 15em; }
+  height: 10em;
+  width: 18.5em; }
 
 .header__consulta {
   text-transform: uppercase;
@@ -131,7 +131,7 @@ footer .fa-twitter, footer .fa-instagram, footer .fa-linkedin, footer .fa-facebo
 .map {
   margin-bottom: 1.5em; }
 
-/*INDEX CAROUSEL MOBILE & ESCRITORIO*/
+/*INDEX CAROUSEL MOBILE*/
 .carousel-item {
   background-color: #777;
   height: 15em;
@@ -173,6 +173,19 @@ footer .fa-twitter, footer .fa-instagram, footer .fa-linkedin, footer .fa-facebo
   background-position: center;
   background-size: cover; }
 
+.carousel__text {
+  font-family: "Source Serif Pro", sans-serif;
+  text-shadow: 1px 1px 1.5px #494545;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0; }
+
+.carousel__text--prioridad {
+  font-family: "Source Serif Pro", sans-serif;
+  text-shadow: 1px 1px 1.5px #494545;
+  text-transform: uppercase;
+  font-weight: 600; }
+
 h1 {
   font-family: "Source Sans Pro", sans-serif;
   text-shadow: 1px 1px 1.5px #494545;
@@ -189,6 +202,16 @@ h6 {
   text-transform: uppercase;
   font-family: 'Source Serif Pro', serif;
   padding: 0.5em; }
+
+/*INDEX CAROUSEL ESCRITORIO*/
+@media (min-width: 700px) {
+  .carousel__text {
+    font-size: 2em;
+    margin: 0;
+    padding: 0; }
+  .carousel__text--prioridad {
+    font-size: 2em;
+    letter-spacing: 0.05em; } }
 
 /*INDEX PRACTICAS MOBILE y escritorio*/
 .practicas {

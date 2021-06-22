@@ -13,7 +13,7 @@ h4 {
 
 .header__logo {
   height: 10em;
-  width: 17em; }
+  width: 18em; }
 
 .header__consulta {
   text-transform: uppercase;
@@ -177,7 +177,7 @@ footer .fa-twitter, footer .fa-instagram, footer .fa-linkedin, footer .fa-facebo
   font-family: "Source Serif Pro", sans-serif;
   text-shadow: 1px 1px 1.5px #494545;
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 0;
   padding: 0; }
 
@@ -185,7 +185,7 @@ footer .fa-twitter, footer .fa-instagram, footer .fa-linkedin, footer .fa-facebo
   font-family: "Source Serif Pro", sans-serif;
   text-shadow: 1px 1px 1.5px #494545;
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 600; }
 
 p {

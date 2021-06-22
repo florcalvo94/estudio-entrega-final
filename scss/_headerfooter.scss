@@ -1,7 +1,10 @@
-
-
 /*HEADER MOBILE*/
 
+*
+{
+  padding: 0;
+  margin: 0;
+}
 .header__logo {
   height: 7em;
   width: 15em; 
@@ -101,14 +104,24 @@ footer {
   background-size: cover; }
   footer .footer__item {
     font-size: 0.8em;
-    margin-top: 1em;
+    margin-top: 2em;
     text-align: center;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
-    font-weight: bolder; }
+    font-weight: bolder;
+  }
+
+   .footer__item--links {
+     padding:0px;
+   } 
+
   footer .footer__item--links li {
     list-style: none;
-    line-height: 2.6em; }
+    line-height: 2.4em;
+    list-style-position:unset;
+    
+  }
+  
   footer .footer__item--links li a {
     text-decoration: none;
     color: black; }
@@ -120,6 +133,10 @@ footer {
     text-decoration: none;
     color: black;
     margin: 1em;
+   }
+
+   .map {
+     margin-bottom: 1.5em;
    }
 
    

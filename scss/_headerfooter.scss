@@ -5,7 +5,9 @@
 }
 .header__logo {
   height: 10em;
-  width: 18.5em; 
+  width: 20em; 
+  margin: 0;
+  padding: 0;
 }
 .header__consulta {
   text-transform: uppercase;
@@ -57,11 +59,12 @@
   width: 10em;
   align-self: center;
   margin: 10px auto;
+  margin-top: 0;
+  padding: 0;
 }
 
 .navbar-collapse {
   text-align: center;
-
 }
 
 /*HEADER ESCRITORIO*/

@@ -98,7 +98,8 @@ h4 {
 footer {
   margin-top: 7em;
   margin: 1em;
-  background-color: #fcf8f8;
+  color: #ffffff;
+  background-color: #202020;
   background-repeat: none;
   background-size: cover; }
 
@@ -123,8 +124,8 @@ footer .footer__item--links li a {
   color: black; }
 
 footer .footer__item--links li a:hover {
-  color: #ecd927;
-  border-bottom: solid #ecd927;
+  color: #ffdf6c;
+  border-bottom: solid #ffdf6c;
   padding-bottom: 0.3em; }
 
 footer .fa-twitter, footer .fa-instagram, footer .fa-linkedin, footer .fa-facebook {
@@ -359,7 +360,7 @@ label {
   width: 20em; }
 
 .contacto__btn {
-  background-color: #f7e11a;
+  background-color: #ffdf6c;
   color: white;
   border-radius: 1em;
   border: none;
@@ -388,14 +389,14 @@ label {
 
 .contacto__redes a {
   text-decoration: none;
-  color: #f7e11a;
+  color: #ffdf6c;
   text-shadow: 2px 2px 5px #807c7c;
   margin: 0.4em;
   padding: 0.5em; }
 
 .contacto__redes--title {
   text-transform: uppercase;
-  color: #f7e11a;
+  color: #ffdf6c;
   text-shadow: 2px 2px 2px #807c7c; }
 
 .contacto__redes--text {
@@ -451,7 +452,7 @@ label {
 
 #submitBtn {
   margin: auto;
-  background-color: #f7e11a;
+  background-color: #ffdf6c;
   color: white;
   font-family: "lato";
   text-transform: uppercase;

@@ -100,7 +100,8 @@ header {
 footer {
   margin-top: 7em;
   margin: 1em;
-  background-color:  rgb(252, 248, 248);;
+  color:#ffffff;
+  background-color:  #202020;
   background-repeat: none;
   background-size: cover; }
   footer .footer__item {
@@ -127,8 +128,8 @@ footer {
     text-decoration: none;
     color: black; }
   footer .footer__item--links li a:hover {
-    color: rgb(236, 217, 39);
-    border-bottom: solid rgb(236, 217, 39);
+    color: #ffdf6c;
+    border-bottom: solid #ffdf6c;
     padding-bottom: 0.3em; }
   footer .fa-twitter, footer .fa-instagram, footer .fa-linkedin, footer .fa-facebook {
     text-decoration: none;

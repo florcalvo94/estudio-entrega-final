@@ -117,9 +117,9 @@ h6 {
   text-align: center;
   justify-content: center;
   padding-top: 0.4em;
-  animation: practicas__box 2s ease-out forwards;
+  animation: practicasItem 5s ease-out forwards;
 }
-@keyframes practicas__box {
+@keyframes practicasItem {
   0% {
       opacity: 0;
   }

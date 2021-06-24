@@ -574,7 +574,7 @@ label {
 
 /*PROFESIONALES*/
 .profesionales__title {
-  margin: 0.5em;
+  margin: 2em;
   text-align: center; }
 
 .profesionales__image {
@@ -585,7 +585,7 @@ label {
   box-shadow: 3px 3px 10px #f1eeee; }
 
 .profesionales__btn {
-  background-color: #f5e65f;
+  background-color: #c6a854;
   color: white;
   border: none;
   border-radius: 0.5em;
@@ -599,13 +599,14 @@ label {
 
 .profesionales__redes a {
   text-decoration: none;
-  background-color: #f5e65f;
+  background-color: #c6a854;
   color: white;
   margin: 0.2em;
   padding: 1em; }
 
 .profesionales__box {
   background-color: #fffbfb;
+  margin: 1em;
   padding: 1em;
   border-radius: 0.5em;
   box-shadow: 3px 3px 10px #f1eeee; }
@@ -617,7 +618,7 @@ label {
     margin: 2em;
     text-align: center; }
   .profesionales__btn {
-    background-color: #f5e65f;
+    background-color: #c6a854;
     color: white;
     border: none;
     border-radius: 0.5em;

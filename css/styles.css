@@ -22,7 +22,7 @@ h4 {
   justify-content: center; }
 
 .header__btn {
-  background: #25d366;
+  background: #1abe56;
   font-family: "oswald", sans-serif;
   letter-spacing: 0.05em;
   border: none;
@@ -87,7 +87,7 @@ h4 {
   .navbar-nav li a {
     margin: 0.2em; }
   .navbar-nav li a:hover {
-    background-color: #cba776;
+    background-color: #c6a854;
     color: white !important;
     border-radius: 0.5em;
     font-weight: 500; }
@@ -145,8 +145,8 @@ footer .footer__item--links li a {
   color: white; }
 
 footer .footer__item--links li a:hover {
-  color: #cba776;
-  border-bottom: solid #cba776;
+  color: #c6a854;
+  border-bottom: solid #c6a854;
   padding-bottom: 0.3em; }
 
 footer .fa-twitter, footer .fa-instagram, footer .fa-linkedin, footer .fa-facebook {
@@ -156,7 +156,7 @@ footer .fa-twitter, footer .fa-instagram, footer .fa-linkedin, footer .fa-facebo
   height: 2em; }
 
 .fa:hover {
-  color: #cba776; }
+  color: #c6a854; }
 
 .map {
   margin-bottom: 1.5em; }
@@ -239,7 +239,7 @@ h3 {
   text-shadow: 1px 1px 1.5px #494545; }
 
 h6 {
-  color: #cba776;
+  color: #c6a854;
   text-transform: uppercase;
   font-family: 'Source Serif Pro', serif;
   padding: 0.5em; }
@@ -281,7 +281,7 @@ h6 {
     opacity: 1; } }
 
 .practicas__btn {
-  background-color: #cba776;
+  background-color: #c6a854;
   color: white;
   border: none;
   border-radius: 0.5em;
@@ -385,7 +385,7 @@ label {
   width: 20em; }
 
 .contacto__btn {
-  background-color: #cba776;
+  background-color: #c6a854;
   color: white;
   border-radius: 1em;
   border: none;
@@ -414,14 +414,14 @@ label {
 
 .contacto__redes a {
   text-decoration: none;
-  color: #cba776;
+  color: #c6a854;
   text-shadow: 2px 2px 5px #807c7c;
   margin: 0.4em;
   padding: 0.5em; }
 
 .contacto__redes--title {
   text-transform: uppercase;
-  color: #cba776;
+  color: #c6a854;
   text-shadow: 2px 2px 2px #807c7c; }
 
 .contacto__redes--text {
@@ -477,7 +477,7 @@ label {
 
 #submitBtn {
   margin: auto;
-  background-color: #cba776;
+  background-color: #c6a854;
   color: white;
   font-family: "lato";
   text-transform: uppercase;

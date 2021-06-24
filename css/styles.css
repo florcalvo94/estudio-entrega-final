@@ -17,21 +17,19 @@ h4 {
   padding: 0; }
 
 .header__consulta {
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  border: solid 0.2em #cba776;
-  font-family: "Source Sans Pro", sans-serif;
-  margin-left: 2em; }
+  display: flex;
+  justify-content: center; }
 
 .header__btn {
-  background: #cba776;
+  background: #25d366;
   border: none;
   color: white;
   font-weight: 600;
   text-transform: uppercase;
-  border-radius: 1em;
-  padding: 0.3em;
-  margin-bottom: 1em; }
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+  width: 15em;
+  padding: 0.4em; }
 
 .navbar-nav li:hover {
   color: white !important; }

@@ -19,12 +19,12 @@ h4 {
 .header__consulta {
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  border: solid 0.2em #f5e65f;
+  border: solid 0.2em #cba776;
   font-family: "Source Sans Pro", sans-serif;
   margin-left: 2em; }
 
 .header__btn {
-  background: #f5e65f;
+  background: #cba776;
   border: none;
   color: white;
   font-weight: 600;
@@ -86,7 +86,7 @@ h4 {
   .navbar-nav li a {
     margin: 0.2em; }
   .navbar-nav li a:hover {
-    background-color: #f5e65f;
+    background-color: #cba776;
     color: white !important;
     border-radius: 0.5em;
     font-weight: 500; }
@@ -98,10 +98,41 @@ footer {
   margin-top: 7em;
   margin: 1em;
   color: #ffffff;
-  background-color: #202020;
-  background-repeat: none;
-  background-size: cover; }
+  background-image: url(/images/buildings2.jpeg);
+  background-size: cover;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; }
 
+footer::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #202020;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .9;
+  z-index: 0; }
+
+footer > * {
+  z-index: 10;
+  position: relative; }
+
+/*.footer__overlay {
+  background-image: url(../images/buildings.jpeg);
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+}*/
 footer .footer__item {
   font-size: 0.8em;
   margin-top: 2em;
@@ -116,28 +147,33 @@ footer .footer__item {
 footer .footer__item--links li {
   list-style: none;
   line-height: 2.4em;
-  list-style-position: unset; }
+  list-style-position: unset;
+  color: white; }
 
 footer .footer__item--links li a {
   text-decoration: none;
-  color: black; }
+  color: white; }
 
 footer .footer__item--links li a:hover {
-  color: #ffdf6c;
-  border-bottom: solid #ffdf6c;
+  color: #cba776;
+  border-bottom: solid #cba776;
   padding-bottom: 0.3em; }
 
 footer .fa-twitter, footer .fa-instagram, footer .fa-linkedin, footer .fa-facebook {
   text-decoration: none;
-  color: black;
-  margin: 1em; }
+  color: white;
+  margin: 1em;
+  height: 2em; }
+
+.fa:hover {
+  color: #cba776; }
 
 .map {
   margin-bottom: 1.5em; }
 
 /*INDEX CAROUSEL MOBILE*/
 .carousel-item {
-  background-color: #777;
+  background-color: #202020;
   height: 15em;
   position: relative;
   color: white;
@@ -162,7 +198,7 @@ footer .fa-twitter, footer .fa-instagram, footer .fa-linkedin, footer .fa-facebo
   left: 0;
   right: 0;
   top: 0;
-  opacity: 0.5;
+  opacity: 0.2;
   background-position: center;
   background-size: cover; }
 
@@ -173,7 +209,7 @@ footer .fa-twitter, footer .fa-instagram, footer .fa-linkedin, footer .fa-facebo
   left: 0;
   right: 0;
   top: 0;
-  opacity: 0.5;
+  opacity: 0.2;
   background-position: center;
   background-size: cover; }
 
@@ -213,7 +249,7 @@ h3 {
   text-shadow: 1px 1px 1.5px #494545; }
 
 h6 {
-  color: #ecd927;
+  color: #cba776;
   text-transform: uppercase;
   font-family: 'Source Serif Pro', serif;
   padding: 0.5em; }
@@ -255,7 +291,7 @@ h6 {
     opacity: 1; } }
 
 .practicas__btn {
-  background-color: #faef5b;
+  background-color: #cba776;
   color: white;
   border: none;
   border-radius: 0.5em;
@@ -274,7 +310,7 @@ h6 {
 
 /*ABOUT US escritorio y mobile*/
 .aboutUs__foto {
-  background-color: #777;
+  background-color: #202020;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -291,7 +327,7 @@ h6 {
   bottom: 0;
   right: 0;
   left: 0;
-  opacity: 0.5;
+  opacity: 0.3;
   position: absolute; }
 
 .aboutUs__textarea {
@@ -359,7 +395,7 @@ label {
   width: 20em; }
 
 .contacto__btn {
-  background-color: #ffdf6c;
+  background-color: #cba776;
   color: white;
   border-radius: 1em;
   border: none;
@@ -388,14 +424,14 @@ label {
 
 .contacto__redes a {
   text-decoration: none;
-  color: #ffdf6c;
+  color: #cba776;
   text-shadow: 2px 2px 5px #807c7c;
   margin: 0.4em;
   padding: 0.5em; }
 
 .contacto__redes--title {
   text-transform: uppercase;
-  color: #ffdf6c;
+  color: #cba776;
   text-shadow: 2px 2px 2px #807c7c; }
 
 .contacto__redes--text {
@@ -451,7 +487,7 @@ label {
 
 #submitBtn {
   margin: auto;
-  background-color: #ffdf6c;
+  background-color: #cba776;
   color: white;
   font-family: "lato";
   text-transform: uppercase;

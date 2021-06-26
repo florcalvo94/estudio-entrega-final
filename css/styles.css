@@ -125,6 +125,12 @@ footer > * {
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
   font-weight: bolder; }
+  .footer__item a {
+    text-decoration: none;
+    color: white;
+    margin: 0.8em; }
+    .footer__item a:hover {
+      color: #c6a854; }
 
 .footer__item--links {
   padding: 0px; }
@@ -162,33 +168,18 @@ footer > * {
     background-position: center;
     background-size: cover; }
   .carousel__overlay {
-    background-image: url(../images/scale.jpeg);
+    background-image: url(../images/scale.jpeg); }
+  .carousel__overlay2 {
+    background-image: url(../images/justice.jpeg); }
+  .carousel__overlay3 {
+    background-image: url(../images/client.jpeg); }
+  .carousel__overlay, .carousel__overlay2, .carousel__overlay3 {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     top: 0;
     opacity: 0.3;
-    background-position: center;
-    background-size: cover; }
-  .carousel__overlay2 {
-    background-image: url(../images/justice.jpeg);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    opacity: 0.2;
-    background-position: center;
-    background-size: cover; }
-  .carousel__overlay3 {
-    background-image: url(../images/client.jpeg);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    opacity: 0.2;
     background-position: center;
     background-size: cover; }
   .carousel__text {
@@ -300,7 +291,7 @@ h6 {
   left: 0; }
 
 .aboutUs__overlay {
-  background-image: url(../images/pexels-andrea-piacquadio-3771097.jpg);
+  background-image: url(../images/abogado.jpg);
   background-position: center;
   background-size: cover;
   top: 0;
@@ -595,42 +586,41 @@ label {
     margin-left: 13em; } }
 
 /*PROFESIONALES*/
-.profesionales__title {
-  text-align: center; }
-
-.profesionales__image {
-  width: 12em;
-  height: 15em;
-  border-radius: 0.4em;
-  margin: 2em;
-  box-shadow: 3px 3px 10px #f1eeee; }
-
-.profesionales__btn {
-  background-color: #c6a854;
-  color: white;
-  border: none;
-  border-radius: 0.5em;
-  text-transform: uppercase;
-  font-weight: 600;
-  text-decoration: none;
-  padding: 0.3em;
-  margin-top: 1.5em;
-  margin: 1em;
-  padding: 1em; }
-
-.profesionales__redes a {
-  text-decoration: none;
-  background-color: #c6a854;
-  color: white;
-  margin: 0.2em;
-  padding: 1em; }
-
-.profesionales__box {
-  background-color: #fffbfb;
-  margin: 1em;
-  padding: 1em;
-  border-radius: 0.5em;
-  box-shadow: 3px 3px 10px #f1eeee; }
+.profesionales {
+  background-color: white; }
+  .profesionales__title {
+    text-align: center; }
+  .profesionales__image {
+    width: 12em;
+    height: 15em;
+    border-radius: 0.4em;
+    margin: 2em;
+    box-shadow: 3px 3px 10px #f1eeee; }
+  .profesionales__btn {
+    background-color: #c6a854;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.3em;
+    margin-top: 1.5em;
+    margin: 1em;
+    padding: 1em; }
+  .profesionales__redes a {
+    text-decoration: none;
+    background-color: #c6a854;
+    color: white;
+    padding: 1em;
+    padding-bottom: 2em;
+    justify-content: center; }
+  .profesionales__box {
+    background-color: #fffbfb;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 10px #f1eeee; }
 
 @media (min-width: 700px) {
   .profesionales__redes a {
@@ -639,7 +629,7 @@ label {
     background-color: #c6a854;
     color: white;
     border: none;
-    border-radius: 0.5em;
+    border-radius: 0.7em;
     text-transform: uppercase;
     font-weight: 600; } }
 

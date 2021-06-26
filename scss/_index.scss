@@ -12,34 +12,20 @@
   }
   &__overlay {
     background-image: url(../images/scale.jpeg);
+  }
+  &__overlay2 {
+    background-image: url(../images/justice.jpeg);
+  }
+  &__overlay3 {
+    background-image: url(../images/client.jpeg);
+  }
+  &__overlay, &__overlay2, &__overlay3 {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     top:0;
     opacity: 0.3;
-    background-position: center;
-    background-size: cover;
-  }
-  &__overlay2 {
-    background-image: url(../images/justice.jpeg);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top:0;
-    opacity: 0.2;
-    background-position: center;
-    background-size: cover;
-  }
-  &__overlay3 {
-    background-image: url(../images/client.jpeg);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top:0;
-    opacity: 0.2;
     background-position: center;
     background-size: cover;
   }
@@ -166,7 +152,7 @@ h6 {
   left: 0;
 }
 .aboutUs__overlay {
-  background-image: url(../images/pexels-andrea-piacquadio-3771097.jpg);
+  background-image: url(../images/abogado.jpg);
   background-position: center;
   background-size: cover;
   top: 0;

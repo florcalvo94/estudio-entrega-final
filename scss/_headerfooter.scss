@@ -127,6 +127,16 @@ footer > * {
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
     font-weight: bolder;
+
+    a {
+      text-decoration: none;
+      color: white;
+      margin: 0.8em;
+
+      &:hover {
+        color: $importantText;
+      }
+    }
 }
 
 .footer__item--links {

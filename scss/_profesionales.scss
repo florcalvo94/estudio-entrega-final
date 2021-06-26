@@ -1,9 +1,6 @@
-
 /*PROFESIONALES*/
-
 .profesionales {
    background-color: white;
-
    &__title {
       text-align: center;
    }
@@ -38,7 +35,6 @@
       box-shadow:  3px 3px 10px rgb(241, 238, 238);
    }
 }
-
 @media(min-width:700px) {
    .profesionales__redes a {
       margin: 1em;

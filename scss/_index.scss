@@ -171,13 +171,10 @@ h6 {
 .aboutUs__text {
   font-size: 1em;
 }
-
 /*numbers */
-
 .numbers {
   margin-left: 20px;
   animation: numbers 2s 1;
-}
 
 @keyframes numbers {
   0% {
@@ -187,24 +184,25 @@ h6 {
       margin-left: 10px;
   }
 }
-.numbers__text {
-  font-family: "Lato";
-  font-size: 1.5em;
-  font-weight: 600; 
-}
-.numbers__title {
-  font-family: "Lato";
-  color: rgb(73, 69, 69);
-  text-transform: uppercase;
-  text-shadow: 1px 1px 1.5px rgb(73, 69, 69);
-}
-.numbers__item {
-  border-left: solid rgb(73, 69, 69) 0.15em;
-  text-align: left;
-  align-content: center;
-  padding-left: 3em;
-  margin: 2em;   
-}
+  &__text {
+      font-family: "Lato";
+      font-size: 1.5em;
+      font-weight: 600; 
+    }
+   &__title {
+      font-family: "Lato";
+      color: rgb(73, 69, 69);
+      text-transform: uppercase;
+      text-shadow: 1px 1px 1.5px rgb(73, 69, 69);
+    }
+    &__item {
+        border-left: solid rgb(73, 69, 69) 0.15em;
+        text-align: left;
+        align-content: center;
+        padding-left: 3em;
+        margin: 2em;   
+    }
+  }
 
 @media(min-width:700px) {
   .numbers__text {

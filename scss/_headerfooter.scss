@@ -3,17 +3,33 @@
   padding: 0;
   margin: 0;
 }
-.header__logo {
+
+.logo {
   height: 10em;
   width: 20em; 
   margin: 0;
   padding: 0;
 }
-.header__consulta {
+.menu {
+  font-family: "Source Sans Pro";
+  text-transform: uppercase;
+  font-weight: 400;   
+}
+.navbar-toggler {
+  width: 10em;
+  align-self: center;
+  margin: 10px auto;
+  margin-top: 0;
+  padding: 0;
+}
+.navbar-collapse {
+  text-align: center;
+}
+.menu__consulta {
  display: flex;
  justify-content: center;
 }
-.header__btn {
+.menu__btn {
   background: #1abe56;
   font-family: "oswald", sans-serif;
   letter-spacing: 0.05em;
@@ -25,13 +41,10 @@
   margin-bottom: 1em;
   width: 15em;
   padding: 0.4em;
-}
-.navbar-nav li:hover {
-  color: white!important;
-}
 
-.header__btn:hover {
-  transform: scale(1.20);
+  &:hover  {
+    transform: scale(1.20);
+  }
 }
 .fa-whatsapp {
   margin: 0.2em;
@@ -39,66 +52,45 @@
   color: white;
   text-decoration: none;
 }
-.navegacion, .consulta {
-  font-family: "Source Sans Pro";
-  text-transform: uppercase;
-  font-weight: 400;   
+.menu__navegacion {
   animation: navegacion 1s 1;
 }
+
 @keyframes navegacion {
   0% {color:black;
   margin-bottom: -40px;
   margin-top: -40px;}
 }
 
-.practicas__btn:hover {
-  transform: scale(1.20);
-}
-
-.navbar-toggler {
-  width: 10em;
-  align-self: center;
-  margin: 10px auto;
-  margin-top: 0;
-  padding: 0;
-}
-
-.navbar-collapse {
-  text-align: center;
-}
-
 /*HEADER ESCRITORIO*/
 
 @media(min-width:700px) {
-  .header__logo {
+  .logo {
     height: 7em;
     width: 15em;
   }
-header {
-  @include headerText ("Source Sans Pro",1.2em,black,uppercase);
+  header {
+   @include headerText ("Source Sans Pro",1.2em,black,uppercase);
    height: 7em;
-}
-.navbar-brand {
-  display: none;
-}
-.navbar-nav li a {
-  margin:0.2em;
-}
+  }
+  .navbar-brand {
+    display: none;
+  }
+  .navbar-nav li a {
+    margin:0.2em;
 
-.navbar-nav li a:hover {
-  background-color: $importantText;
-  color: white!important;
-  border-radius: 0.5em;
-  font-weight: 500;
-}
-.nav-link:hover {
-  color:white;
-}
-
+    &:hover {
+      background-color: $importantText;
+      color: white!important;
+      border-radius: 0.5em;
+      font-weight: 500;
+    }
+  }
 }
 
 /*FOOTER*/
 footer {
+  line-height: 1.5em;
   margin-top: 7em;
   margin: 1em;
   color:#ffffff;
@@ -127,44 +119,47 @@ footer > * {
   position: relative;
 }
 
-  footer .footer__item {
+.footer__item {
     font-size: 0.8em;
     margin-top: 2em;
+    padding: 1em;
     text-align: center;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
     font-weight: bolder;
-  }
-
-   .footer__item--links {
-     padding:0px;
-   } 
-
-  footer .footer__item--links li {
-    list-style: none;
-    line-height: 2.4em;
-    list-style-position:unset;
-    color: white;
-  }
-  
-  footer .footer__item--links li a {
-    text-decoration: none;
-    color: white; }
-  footer .footer__item--links li a:hover {
-    color: $importantText;
-    border-bottom: solid $importantText;
-    padding-bottom: 0.3em; }
-  footer .fa-twitter, footer .fa-instagram, footer .fa-linkedin, footer .fa-facebook {
-    text-decoration: none;
-    color: white;
-    margin: 1em;
-    height: 2em;
-   }
-.fa:hover {
-  color: $importantText;
 }
-   .map {
-     margin-bottom: 1.5em;
-   }
+
+.footer__item--links {
+     padding:0px;
+     li {
+      list-style: none;
+      margin:1.5em;
+      list-style-position:unset;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    
+    &:hover {
+      color: $importantText;
+      border-bottom: solid $importantText;
+      padding-bottom: 0.3em;
+    }
+  }
+} 
+.fa-twitter, .fa-instagram,.fa-linkedin, .fa-facebook {
+  text-decoration: none;
+  color: white;
+  margin: 1em;
+  height: 2em;
+
+  &:hover  {
+    color: $importantText;
+  }
+}
+
+.map {
+  margin-bottom: 1.5em;
+}
 
    

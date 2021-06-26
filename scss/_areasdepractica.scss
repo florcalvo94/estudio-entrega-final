@@ -1,7 +1,13 @@
  /*AREAS DE PRACTICA*/
 
+ .practicasTitle {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+
  .practicas__box {
-  background-color: rgb(255, 251, 251);
+   background-color: rgb(255, 251, 251);
   margin: 3em;
   animation: practicas__box 1s;
   
@@ -9,4 +15,16 @@
 
 .practicas__box:hover {
 transform: scale(1.20);
+}
+
+@media(min-width:700px) {
+  .practicas__box {
+    height: 25em;
+  }
+ 
+  .practicasTitle {
+    font-size:2em;
+  }
+ 
+
 }

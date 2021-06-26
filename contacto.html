@@ -15,11 +15,11 @@
   <body class="container-fluid">
     <header class="row">
       <div class="col-lg-4 center-block text-center">
-        <img class="header__logo" src="images/logo.jpg" alt="Logo del Estudio">
+        <img class="logo" src="images/logo.jpg" alt="Logo del Estudio">
       </div>
       <div class="col-lg-7 offset-lg-1">
-        <div class="container-fluid">
-          <div class="row navegacion">
+        <div class="container-fluid menu">
+          <div class="row menu__navegacion">
             <nav class="navbar navbar-expand-lg navbar-light">
               <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav">
                     <li class="nav-item ">
-                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="areasdepractica.html">Areas de Practica</a>
@@ -47,60 +47,58 @@
                       </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" href="contacto.html">Contacto</a>
+                      <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
                   </ul>
                 </div>
               </div>
             </nav>
           </div>
-          <div class="row">
-            <button type="button" class="header__btn col-lg-5 offset-lg-4"> Haga su consulta hoy <a href="#" class="fa fa-whatsapp"></a></button>
+          <div class="menu__consulta">
+            <button type="button" class="menu__btn col-lg-5 offset-lg-4"> Consultenos ahora <a href="#" class="fa fa-whatsapp"></a></button>
           </div>
         </div>
       </div>
     </header>
-    <section class="row">
+    <section class="row contacto">
       <div class="col-lg-6">
-        <div class="contacto__form">
-          <p class="contacto__formtitle">Escribinos tu consulta y te responderemos en el lapso de 72hs</p>
+        <div class="contactoForm">
+          <h1 class="contactoForm__title">Contactanos</h1>
+          <p>Escribinos tu consulta y te responderemos en el lapso de 72hs</p>
           <form action= "contacto.php" method="get">
-            <div class="contacto__item"><label for="nombre">Nombre</label>
-              <input class="contacto__input" type="name" placeholder="Entrada de nombre" value="" required>
+            <div class="contactoForm__item"><label for="nombre">Nombre</label>
+              <input class="contactoForm__input" type="name" placeholder="Entrada de nombre" value="" required>
             </div>                      
-            <div class="contacto__item"><label for="apellido">Apellido</label>
-              <input class="contacto__input" type="surname" placeholder="Entrada de apellido" value="" required>
+            <div class="contactoForm__item"><label for="apellido">Apellido</label>
+              <input class="contactoForm__input" type="surname" placeholder="Entrada de apellido" value="" required>
             </div>
-            <div class="contacto__item"><label for="correo">Correo Electronico</label>
-              <input class="contacto__input" type="email" placeholder="Ingrese su correo" value="" required>
+            <div class="contactoForm__item"><label for="correo">Correo Electronico</label>
+              <input class="contactoForm__input" type="email" placeholder="Ingrese su correo" value="" required>
             </div>
-            <div class="contacto__item"><label class="consulta" for="mensaje">Escribe tu consulta</label>
-              <textarea class="contacto__input" name="mensaje" cols="40" rows="4" minlength="5" maxlength="200" ></textarea>
+            <div class="contactoForm__item"><label class="consulta" for="mensaje">Escribe tu consulta</label>
+              <textarea class="contactoForm__input" name="mensaje" cols="40" rows="4" minlength="5" maxlength="200" ></textarea>
             </div>
-            <input type="submit" value="Enviar Formulario" class="contacto__btn">
-      </div><!--CIERRA FORMCONTACTO -->
+            <input type="submit" value="Enviar Formulario" class="contactoForm__btn">
+      </div>
 
       </div>
       <div class="col-lg-5">
-        <p class="contacto__text">Tambien podes contactarnos por Whatsapp, redes sociales y llamada telefonica de lunes a viernes de 9 a 18hs</p>
-        <div class="contacto__redes">
-          <a href="#" class="fa fa-map-marker"></a>
-          <h7 class="contacto__redes--title">Direccion</h7>
-          <p class="contacto__redes--text">Libertad N° 946, 6to A, Ciudad Autonoma de Buenos Aires, CP 1014</p></li>
-        </div><div class="contacto__redes">
-          <a href="#" class="fa fa-phone"></a>
-          <h7 class="contacto__redes--title">Telefono</h7>
-          <p class="contacto__redes--text">0800-444-5617</p></li>
+        <p class="contactoText">Tambien podes contactarnos por Whatsapp, redes sociales y llamada telefonica de lunes a viernes de 9 a 18hs</p>
+        <div class="contactoCard">     
+          <h2 class="contactoCard__title"> <a href="#" class="fa fa-map-marker"></a>Direccion</h2>
+          <p class="contactoCard__text">Libertad N° 946, 6to A, Ciudad Autonoma de Buenos Aires, CP 1014</p></li>
+        </div><div class="contactoCard">
+          <h2 class="contactoCard__title"> <a href="#" class="fa fa-phone"></a>Telefono</h2>
+          <p class="contactoCard__text">0800-444-5617</p></li>
         </div>
-        <div class="contacto__redes">
-          <a href="#" class="fa fa-envelope"></a>
-          <h7 class="contacto__redes--title">Correo Electrónico</h7>
-          <p class="contacto__redes--text">ESTUDIOFGCM@GMAIL.COM</p></li>
+        <div class="contactoCard">
+          <h2 class="contactoCard__title"><a href="#" class="fa fa-envelope"></a>Correo Electrónico</h2>
+          <p class="contactoCard__text">ESTUDIOFGCM@GMAIL.COM</p></li>
         </div>                  
       </div>
     </section>  
-    <footer class="row">
-      <div class="col-md-4 footer__item">
+    <footer class="row" data-aos="fade-right">
+      <div class="col-md-4 footer__item center-block text-center">
         <ul class="footer__item--links">
           <li><a href="contacto.html">Contacto</a></li>
           <li><a href="registrarse.html">Registrarse</a></li>
@@ -108,18 +106,21 @@
           <li><a href="#">Politica de privacidad</a></li>
         </ul>
       </div>
-      <div class="col-md-4 footer__item">
-        <p>Nuestra oficina</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.183125026664!2d-58.38610508560926!3d-34.599530580460645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac7c2e1a54b%3A0x327c4296e870e09a!2sLibertad%20773%2C%20C1012AAO%20CABA!5e0!3m2!1sen!2sar!4v1621722815140!5m2!1sen!2sar" width="120" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <div class="col-md-4 footer__item center-block text-center">
+        <h7> <a href="#" class="fa fa-map-marker"></a>  Direccion</h7>
+        <p>Libertad 457, 6to piso, Ciudad Autonoma de Buenos Aires, Argentina. CP 1014.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.183125026664!2d-58.38610508560926!3d-34.599530580460645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac7c2e1a54b%3A0x327c4296e870e09a!2sLibertad%20773%2C%20C1012AAO%20CABA!5e0!3m2!1sen!2sar!4v1621722815140!5m2!1sen!2sar" width="120" height="100" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
       </div>
-      <div class="col-md-4 footer__item"> 
+      <div class="col-md-4 footer__item center-block text-center"> 
+        <p><a href="#" class="fa fa-phone"></a>  11-4435-6757</p>
+        <p><a href="#" class="fa fa-envelope"></a>  estudiofgcm@gmail.com</p>
         <p>Encontranos en las redes sociales</p>  
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-instagram"></a>
         <a href="#" class="fa fa-linkedin"></a>
-      </div>
-    </footer>   
+      </div>                
+    </footer>
     <p class="rights">© 2021 FG&CM. Todos los derechos reservados. Prohibida su reproducción total o parcial.</p>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

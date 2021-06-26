@@ -11,55 +11,16 @@ h4 {
   padding: 0;
   margin: 0; }
 
-.header__logo {
+.logo {
   height: 10em;
   width: 20em;
   margin: 0;
   padding: 0; }
 
-.header__consulta {
-  display: flex;
-  justify-content: center; }
-
-.header__btn {
-  background: #1abe56;
-  font-family: "oswald", sans-serif;
-  letter-spacing: 0.05em;
-  border: none;
-  color: white;
-  font-weight: 600;
-  text-transform: uppercase;
-  border-radius: 0.5em;
-  margin-bottom: 1em;
-  width: 15em;
-  padding: 0.4em; }
-
-.navbar-nav li:hover {
-  color: white !important; }
-
-.header__btn:hover {
-  transform: scale(1.2); }
-
-.fa-whatsapp {
-  margin: 0.2em;
-  margin-bottom: 0.45em;
-  color: white;
-  text-decoration: none; }
-
-.navegacion, .consulta {
+.menu {
   font-family: "Source Sans Pro";
   text-transform: uppercase;
-  font-weight: 400;
-  animation: navegacion 1s 1; }
-
-@keyframes navegacion {
-  0% {
-    color: black;
-    margin-bottom: -40px;
-    margin-top: -40px; } }
-
-.practicas__btn:hover {
-  transform: scale(1.2); }
+  font-weight: 400; }
 
 .navbar-toggler {
   width: 10em;
@@ -71,9 +32,43 @@ h4 {
 .navbar-collapse {
   text-align: center; }
 
+.menu__consulta {
+  display: flex;
+  justify-content: center; }
+
+.menu__btn {
+  background: #1abe56;
+  font-family: "oswald", sans-serif;
+  letter-spacing: 0.05em;
+  border: none;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+  width: 15em;
+  padding: 0.4em; }
+  .menu__btn:hover {
+    transform: scale(1.2); }
+
+.fa-whatsapp {
+  margin: 0.2em;
+  margin-bottom: 0.45em;
+  color: white;
+  text-decoration: none; }
+
+.menu__navegacion {
+  animation: navegacion 1s 1; }
+
+@keyframes navegacion {
+  0% {
+    color: black;
+    margin-bottom: -40px;
+    margin-top: -40px; } }
+
 /*HEADER ESCRITORIO*/
 @media (min-width: 700px) {
-  .header__logo {
+  .logo {
     height: 7em;
     width: 15em; }
   header {
@@ -86,16 +81,15 @@ h4 {
     display: none; }
   .navbar-nav li a {
     margin: 0.2em; }
-  .navbar-nav li a:hover {
-    background-color: #c6a854;
-    color: white !important;
-    border-radius: 0.5em;
-    font-weight: 500; }
-  .nav-link:hover {
-    color: white; } }
+    .navbar-nav li a:hover {
+      background-color: #c6a854;
+      color: white !important;
+      border-radius: 0.5em;
+      font-weight: 500; } }
 
 /*FOOTER*/
 footer {
+  line-height: 1.5em;
   margin-top: 7em;
   margin: 1em;
   color: #ffffff;
@@ -123,9 +117,10 @@ footer > * {
   z-index: 10;
   position: relative; }
 
-footer .footer__item {
+.footer__item {
   font-size: 0.8em;
   margin-top: 2em;
+  padding: 1em;
   text-align: center;
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
@@ -133,105 +128,97 @@ footer .footer__item {
 
 .footer__item--links {
   padding: 0px; }
+  .footer__item--links li {
+    list-style: none;
+    margin: 1.5em;
+    list-style-position: unset; }
+  .footer__item--links a {
+    text-decoration: none;
+    color: white; }
+    .footer__item--links a:hover {
+      color: #c6a854;
+      border-bottom: solid #c6a854;
+      padding-bottom: 0.3em; }
 
-footer .footer__item--links li {
-  list-style: none;
-  line-height: 2.4em;
-  list-style-position: unset;
-  color: white; }
-
-footer .footer__item--links li a {
-  text-decoration: none;
-  color: white; }
-
-footer .footer__item--links li a:hover {
-  color: #c6a854;
-  border-bottom: solid #c6a854;
-  padding-bottom: 0.3em; }
-
-footer .fa-twitter, footer .fa-instagram, footer .fa-linkedin, footer .fa-facebook {
+.fa-twitter, .fa-instagram, .fa-linkedin, .fa-facebook {
   text-decoration: none;
   color: white;
   margin: 1em;
   height: 2em; }
-
-.fa:hover {
-  color: #c6a854; }
+  .fa-twitter:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-facebook:hover {
+    color: #c6a854; }
 
 .map {
   margin-bottom: 1.5em; }
 
 /*INDEX CAROUSEL MOBILE*/
-.carousel-item {
-  background-color: #202020;
-  height: 15em;
-  position: relative;
-  color: white;
-  background-position: center;
-  background-size: cover; }
+.carousel {
+  margin: 3em 0 3em 0; }
+  .carousel-item {
+    background-color: #202020;
+    height: 15em;
+    position: relative;
+    color: white;
+    background-position: center;
+    background-size: cover; }
+  .carousel__overlay {
+    background-image: url(../images/scale.jpeg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.3;
+    background-position: center;
+    background-size: cover; }
+  .carousel__overlay2 {
+    background-image: url(../images/justice.jpeg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.2;
+    background-position: center;
+    background-size: cover; }
+  .carousel__overlay3 {
+    background-image: url(../images/client.jpeg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.2;
+    background-position: center;
+    background-size: cover; }
+  .carousel__text {
+    font-size: 0.7em; }
+  .carousel__text--title {
+    font-family: "Source Serif Pro", sans-serif;
+    text-shadow: 1px 1px 1.5px #494545;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0; }
+  .carousel__text--prioridad {
+    font-family: "Source Serif Pro", sans-serif;
+    text-shadow: 1px 1px 1.5px #494545;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: 600; }
 
-.carousel__overlay {
-  background-image: url(../images/scale.jpeg);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  opacity: 0.3;
-  background-position: center;
-  background-size: cover; }
-
-.carousel__overlay2 {
-  background-image: url(../images/justice.jpeg);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  opacity: 0.2;
-  background-position: center;
-  background-size: cover; }
-
-.carousel__overlay3 {
-  background-image: url(../images/client.jpeg);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  opacity: 0.2;
-  background-position: center;
-  background-size: cover; }
-
-.carousel__text--title {
+h1 {
   font-family: "Source Serif Pro", sans-serif;
   text-shadow: 1px 1px 1.5px #494545;
   text-transform: uppercase;
-  font-size: 1.3em;
-  margin: 0;
-  padding: 0; }
+  font-size: 1.7em;
+  margin: 1.5em; }
 
-.carousel__text--prioridad {
-  font-family: "Source Serif Pro", sans-serif;
-  text-shadow: 1px 1px 1.5px #494545;
-  text-transform: uppercase;
-  font-size: 1.3em;
-  font-weight: 600; }
-
-.carousel__text {
-  font-size: 0.7em; }
-
-h5 {
+h2 {
   font-family: "Source Serif Pro", sans-serif;
   text-shadow: 1px 1px 1.5px #494545;
   text-transform: uppercase;
   font-size: 2em; }
-
-h1 {
-  font-family: "Source Sans Pro", sans-serif;
-  text-shadow: 1px 1px 1.5px #494545;
-  text-transform: uppercase;
-  font-size: smaller; }
 
 h3 {
   font-family: 'Source Serif Pro', serif;
@@ -246,15 +233,15 @@ h6 {
 
 /*INDEX CAROUSEL ESCRITORIO*/
 @media (min-width: 700px) {
-  .carousel__text--title {
-    font-size: 2.2em;
-    margin: 0;
-    padding: 0; }
-  .carousel__text--prioridad {
-    font-size: 2.4em;
-    letter-spacing: 0.05em; }
   .carousel__text {
-    font-size: 1.2em; } }
+    font-size: 1.2em; }
+    .carousel__text--prioridad {
+      font-size: 2.4em;
+      letter-spacing: 0.05em; }
+    .carousel__text--title {
+      font-size: 2.2em;
+      margin: 0;
+      padding: 0; } }
 
 /*INDEX PRACTICAS MOBILE yescritorio*/
 .practicas {
@@ -262,6 +249,9 @@ h6 {
   text-align: center;
   margin: 3em;
   padding-top: 3em; }
+
+.practicas__btn:hover {
+  transform: scale(1.2); }
 
 .practicas__image {
   height: 3em;
@@ -368,23 +358,46 @@ h6 {
     margin: 3em; } }
 
 /*contacto */
-.contacto__form {
-  background-color: darkgrey;
-  color: white;
+.contactoForm {
+  color: #ffffff;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url(../images/constelaciones.jpeg);
+  opacity: .6;
   border-radius: 0.5em;
   line-height: 2em;
   padding: 0.3em;
   text-transform: uppercase;
   font-size: 0.9em; }
 
+.contactoForm::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .7;
+  z-index: 0; }
+
+.contactoForm > * {
+  z-index: 10;
+  position: relative; }
+
 label {
   padding: 0.5em;
   width: 7em; }
 
-.contacto__input {
+.contactoForm__input {
   width: 20em; }
 
-.contacto__btn {
+.contactoForm__btn {
   background-color: #c6a854;
   color: white;
   border-radius: 1em;
@@ -395,7 +408,7 @@ label {
   display: block;
   margin: 0 auto; }
 
-.contacto__text {
+.contactoText {
   color: white;
   font-size: 1.5em;
   font-weight: 500;
@@ -403,62 +416,65 @@ label {
   margin-top: 1em;
   text-shadow: 2px 2px 5px black; }
 
-.contacto__redes {
+.contactoCard {
   list-style: none;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
-  background-color: #f6f0f0;
+  background-color: #F2F1EF;
   width: 24em;
   margin-left: 0.5em;
   margin-right: 0.5em; }
 
-.contacto__redes a {
+.contactoCard a {
   text-decoration: none;
   color: #c6a854;
   text-shadow: 2px 2px 5px #807c7c;
   margin: 0.4em;
   padding: 0.5em; }
 
-.contacto__redes--title {
+.contactoCard__title {
   text-transform: uppercase;
-  color: #c6a854;
-  text-shadow: 2px 2px 2px #807c7c; }
+  font-size: 1.2em;
+  color: #c6a854; }
 
-.contacto__redes--text {
+.contactoCard__text {
   margin-left: 2.5em;
   padding-bottom: 1em;
-  color: white;
-  text-shadow: 2px 2px 2px #5f5c5c; }
+  color: #3d3d3d; }
 
 @media (min-width: 700px) {
-  .contacto__form {
+  .contactoForm {
     padding: 2em;
     margin: 3em;
     margin-left: 6em;
     text-align: left;
     font-weight: 700;
     line-height: 2em; }
-  .contacto__formtitle {
+  .contactoForm__title {
     font-size: 2em; }
-  .contacto__item {
+  .contactoForm__item {
     margin: 1em; }
-  .contacto__input {
+  .contactoForm__input {
     margin: 0.5em;
     width: 20em;
     padding: 0.1em; }
-  .contacto__btn {
+  .contactoForm__btn {
     margin-left: 8em; }
-  .contacto__text {
+  .contactoText {
     font-size: 2em;
     margin-top: 2em; }
-  .contacto__redes {
+  .contactoCard {
     width: 24em;
     margin-left: 7em; }
-  .contacto__redes--text {
+  .contactoCard__text {
     margin-left: 2.5em;
     padding-bottom: 1em; } }
 
 /*AREAS DE PRACTICA*/
+.practicasTitle {
+  font-size: 1.2em;
+  margin-bottom: 1em; }
+
 .practicas__box {
   background-color: #fffbfb;
   margin: 3em;
@@ -466,6 +482,12 @@ label {
 
 .practicas__box:hover {
   transform: scale(1.2); }
+
+@media (min-width: 700px) {
+  .practicas__box {
+    height: 25em; }
+  .practicasTitle {
+    font-size: 2em; } }
 
 /*registrarse*/
 .registrarse__form {
@@ -574,7 +596,6 @@ label {
 
 /*PROFESIONALES*/
 .profesionales__title {
-  margin: 2em;
   text-align: center; }
 
 .profesionales__image {
@@ -614,9 +635,6 @@ label {
 @media (min-width: 700px) {
   .profesionales__redes a {
     margin: 1em; }
-  .profesionales__title {
-    margin: 2em;
-    text-align: center; }
   .profesionales__btn {
     background-color: #c6a854;
     color: white;

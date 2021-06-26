@@ -1,7 +1,6 @@
 
 /*PROFESIONALES*/
 .profesionales__title {
-   margin:2em;
    text-align: center;
 }
 .profesionales__image {
@@ -37,10 +36,6 @@
 @media(min-width:700px) {
    .profesionales__redes a {
       margin: 1em;
-   }
-   .profesionales__title {
-      margin:2em;
-      text-align: center;
    }
    .profesionales__btn{
       @include buttons ($importantText,white, none,0.5em,uppercase,600)

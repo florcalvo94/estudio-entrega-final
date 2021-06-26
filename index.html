@@ -15,14 +15,14 @@
   <body class="container-fluid">
     <header class="row">
       <div class="col-lg-4 center-block text-center">
-        <img class="header__logo" src="images/logo.jpg" alt="Logo del Estudio">
+        <img class="logo" src="images/logo.jpg" alt="Logo del Estudio">
       </div>
       <div class="col-lg-7 offset-lg-1">
-        <div class="container-fluid">
-          <div class="row navegacion">
+        <div class="container-fluid menu">
+          <div class="row menu__navegacion">
             <nav class="navbar navbar-expand-lg navbar-light">
               <div class="container-fluid">
-                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -41,9 +41,9 @@
                         Articulos
                       </a>
                       <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="https://aldiaargentina.microjuris.com/2021/05/11/doctrina-la-vulnerabilidad-de-algunas-personas-con-discapacidad-por-autismo-en-la-pandemia-de-covid-19/"> COVID 19</a></li>
+                        <li><a class="dropdown-item" href="https://aldiaargentina.microjuris.com/2020/09/17/doctrina-naturaleza-juridica-del-btc-bitcoin/">BITCOIN</a></li>
+                        <li><a class="dropdown-item" href="https://aldiaargentina.microjuris.com/2015/09/03/todos-los-divorcios-contenciosos-sin-sentencia-iniciados-antes-o-despues-de-la-entrada-en-vigencia-del-nuevo-codigo-civil-y-comercial-de-la-nacion-se-resolveran-como-divorcios-sin-expresion-de-causa/">Divorcios</a></li>
                       </ul>
                     </li>
                     <li class="nav-item">
@@ -54,8 +54,8 @@
               </div>
             </nav>
           </div>
-          <div class="header__consulta">
-            <button type="button" class="header__btn col-lg-5 offset-lg-4"> Consultenos ahora <a href="#" class="fa fa-whatsapp"></a></button>
+          <div class="menu__consulta">
+            <button type="button" class="menu__btn col-lg-5 offset-lg-4"> Consultenos ahora <a href="#" class="fa fa-whatsapp"></a></button>
           </div>
         </div>
       </div>
@@ -71,21 +71,20 @@
             <div class="carousel-item active">
                 <div class="carousel__overlay"></div>
                 <div class="carousel-caption">
-                <p class="carousel__text--title">LA SOLUCION DE TUS PROBLEMAS LEGALES, </p>
-                <p class="carousel__text--prioridad"> NUESTRA PRIORIDAD</p>
-               </div>
+                <h1 class="carousel__text--title">LA SOLUCION DE TUS PROBLEMAS LEGALES,<strong>NUESTRA PRIORIDAD</strong></h1>
+                </div>
             </div>
             <div class="carousel-item">
                 <div class="carousel__overlay2"></div>
                 <div class="carousel-caption ">
-                <h5>Atencion personalizada</h5>
+                <h2>Atencion personalizada</h2>
                 <p class="carousel__text">Nos caracterizamos por mantener constante contacto con nuestros clientes y estar a disposicion para cualquier necesidad que tuvieran.</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="carousel__overlay3"></div>
                 <div class="carousel-caption">
-                <h5>Eficiencia y Rapidez</h5>
+                <h2>Eficiencia y Rapidez</h2>
                 <p class="carousel__text">Para nosotros, lo mas importante es el tiempo de nuestros clientes. Nos comprometemos a trabajar diligentemente para que los casos puedan tener una resolucion rapida y favorable</p>
                 </div>
             </div>
@@ -101,11 +100,11 @@
         </div>
     </section>
     <section class="row">
-        <div class="container-fluid practicas"  data-aos="fade-right">
-            <div class="row">
-              <h3 class="practicas__title">Nuestras Areas de Practica</h3>
+        <div class="container-fluid practicas">
+            <div class="row" data-aos="fade-right">
+              <h3 class="practicas__title">Areas de Practica</h3>
             </div>
-            <div class="row d-flex justify-content-center">
+            <div class="row d-flex justify-content-center" data-aos="fade-right">
                 <div class="col-md-2 col-6 practicas__item align-self-center" >
                     <img src="https://img.icons8.com/carbon-copy/100/000000/auction.png" class="practicas__image" alt="Logo de Civil"/>
                     <h6>Derecho Civil</h6>
@@ -123,7 +122,7 @@
                     <h6>Derecho de Daños</h6>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" data-aos="fade-right">
                 <div class="col-md-2 col-6 practicas__item align-self-center">
                     <img src="https://img.icons8.com/carbon-copy/100/000000/scales.png" class="practicas__image"alt="Logo de Daños"/>
                     <h6>Derecho de Daños</h6>
@@ -155,7 +154,7 @@
                 <div class="col-lg-7">
                     <div class="aboutUs__textarea">
                       <h3>Sobre Nosotros</h3>
-                      <p class="aboutUs__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quo nobis minus vitae, molestiae perferendis quisquam illum atque similique nemo quae ut quidem animi alias molestias saepe numquam repudiandae. Laborum.</p>
+                      <p class="aboutUs__text"> FG&CM es un estudio jurídico conformado por un grupo de profesionales especializados en diversas ramas del Derecho. Nos caracterizamos por nuestra cercanía con el cliente y la rapidez en la resolucion de conflictos.</p>
                     </div>
                 </div>
             </div>
@@ -186,44 +185,38 @@
         </div>
     </section>
     <footer class="row" data-aos="fade-right">
-        <div class="col-md-4 footer__item center-block text-center">
-              <ul class="footer__item--links">
-              <li><a href="contacto.html">Contacto</a></li>
-              <li><a href="registrarse.html">Registrarse</a></li>
-              <li><a href="#">Terminos y Condiciones</a></li>
-              <li><a href="#">Politica de privacidad</a></li>
-              </ul>
-            </div>
-            <div class="col-md-4 footer__item center-block text-center">
-              <p>Conozca Nuestras oficinas en CABA</p>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.183125026664!2d-58.38610508560926!3d-34.599530580460645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac7c2e1a54b%3A0x327c4296e870e09a!2sLibertad%20773%2C%20C1012AAO%20CABA!5e0!3m2!1sen!2sar!4v1621722815140!5m2!1sen!2sar" width="120" height="100" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
-            </div>
-              <div class="col-md-4 footer__item center-block text-center"> 
-              <p>Encontranos en las redes sociales</p>  
-              <a href="#" class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-twitter"></a>
-              <a href="#" class="fa fa-instagram"></a>
-              <a href="#" class="fa fa-linkedin"></a>
-            </div>       
-            
+      <div class="col-md-4 footer__item center-block text-center">
+        <ul class="footer__item--links">
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="registrarse.html">Registrarse</a></li>
+          <li><a href="#">Terminos y Condiciones</a></li>
+          <li><a href="#">Politica de privacidad</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 footer__item center-block text-center">
+        <h7> <a href="#" class="fa fa-map-marker"></a>  Direccion</h7>
+        <p>Libertad 457, 6to piso, Ciudad Autonoma de Buenos Aires, Argentina. CP 1014.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.183125026664!2d-58.38610508560926!3d-34.599530580460645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac7c2e1a54b%3A0x327c4296e870e09a!2sLibertad%20773%2C%20C1012AAO%20CABA!5e0!3m2!1sen!2sar!4v1621722815140!5m2!1sen!2sar" width="120" height="100" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
+      </div>
+      <div class="col-md-4 footer__item center-block text-center"> 
+        <p><a href="#" class="fa fa-phone"></a>  11-4435-6757</p>
+        <p><a href="#" class="fa fa-envelope"></a>  estudiofgcm@gmail.com</p>
+        <p>Encontranos en las redes sociales</p>  
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+      </div>                
     </footer>
-      
     <p class="rights">© 2021 FG&CM. Todos los derechos reservados. Prohibida su reproducción total o parcial.</p>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-    -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-    AOS.init({
-      offset:200,
-      duration:600
-    });
+      AOS.init({
+        offset:200,
+        duration:600});
     </script>
   </body>
 </html>

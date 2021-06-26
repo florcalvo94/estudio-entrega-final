@@ -15,11 +15,11 @@
   <body class="container-fluid">
     <header class="row">
       <div class="col-lg-4 center-block text-center">
-        <img class="header__logo" src="images/logo.jpg" alt="Logo del Estudio">
+        <img class="logo" src="images/logo.jpg" alt="Logo del Estudio">
       </div>
       <div class="col-lg-7 offset-lg-1">
-        <div class="container-fluid">
-          <div class="row navegacion">
+        <div class="container-fluid menu">
+          <div class="row menu__navegacion">
             <nav class="navbar navbar-expand-lg navbar-light">
               <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,10 +28,10 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav">
                     <li class="nav-item ">
-                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" href="areasdepractica.html">Areas de Practica</a>
+                      <a class="nav-link" href="areasdepractica.html">Areas de Practica</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="profesionales.html">Profesionales</a>
@@ -54,18 +54,16 @@
               </div>
             </nav>
           </div>
-          <div class="row">
-            <button type="button" class="header__btn col-lg-5 offset-lg-4"> Haga su consulta hoy <a href="#" class="fa fa-whatsapp"></a></button>
+          <div class="menu__consulta">
+            <button type="button" class="menu__btn col-lg-5 offset-lg-4"> Consultenos ahora <a href="#" class="fa fa-whatsapp"></a></button>
           </div>
         </div>
       </div>
     </header>
     <div class="row">
         <div class="container-fluid practicas ">
-            <div class="row">
-              <h3 class="practicas__title">Nuestras Areas de Practica</h3>
-            </div>
             <div class="row d-flex justify-content-center">
+              <h1 class="practicasTitle">Nuestras Areas de Practica</h1>
                 <div class="col-lg-2 practicas__box align-self-center">
                     <img src="https://img.icons8.com/carbon-copy/100/000000/auction.png" class="practicas__image" alt="Logo de Civil"/>
                     <h6>Derecho Civil</h6>
@@ -74,24 +72,24 @@
                 <div class="col-lg-2  practicas__box align-self-center">
                     <img src="https://img.icons8.com/carbon-copy/100/000000/rules.png" class="practicas__image" alt="Logo de Contratos"/>
                     <h6>Contratos</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta voluptas veniam iste enim blanditiis, dignissimos earum, ad quos quo, dolorum exercitationem atque eveniet quidem placeat sequi dolor aspernatur impedit optio?</p>
+                    <p>Nos encargamos de la redaccion y revision de tus contratos, así como la verificacion del cumplimiento y te acompañamos durante toda su ejecucion. También formamos parte de las tratativas previas y realizamos intimaciones por incumplimiento.</p>
                 </div>
                 <div class="col-lg-2 practicas__box align-self-center">
                     <img src="https://img.icons8.com/carbon-copy/100/000000/family.png" class="practicas__image" alt="Logo de Familia"/>
                     <h6>Derecho de Familia</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta voluptas veniam iste enim blanditiis, dignissimos earum, ad quos quo, dolorum exercitationem atque eveniet quidem placeat sequi dolor aspernatur impedit optio?</p>
+                    <p>Familia es un área muy delicada, y en FG&CM lo sabemos. Por eso tenemos a profesionales dedicados a esta rama que a la vez cuentan con las capacidades de comprension y mediacion necesarias para asegurar el exito. </p>
                 </div>
                 <div class="col-lg-2 practicas__box align-self-center">
                     <img src="https://img.icons8.com/carbon-copy/100/000000/scales.png" class="practicas__image" alt="Logo de Daños"/>
                     <h6>Derecho de Daños</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta voluptas veniam iste enim blanditiis, dignissimos earum, ad quos quo, dolorum exercitationem atque eveniet quidem placeat sequi dolor aspernatur impedit optio?</p>
+                    <p>Lo principal en el Derecho de Daños es la negociacion, por eso asesoramos tanto a reclamante como a reclamado para que lleguen a la mejor resolucion del conflicto, cuidando sus mejores intereses.</p>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-2 practicas__box align-self-center">
                     <img src="https://img.icons8.com/carbon-copy/100/000000/scales.png" class="practicas__image" alt="Logo de Daños"/>
-                    <h6>Derecho de Daños</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta voluptas veniam iste enim blanditiis, dignissimos earum, ad quos quo, dolorum exercitationem atque eveniet quidem placeat sequi dolor aspernatur impedit optio?</p>
+                    <h6>Sucesiones</h6>
+                    <p>Contamos con profesionales especializados en sucesiones tanto testadas como intestadas. Conseguimos inclusive la documentacion necesaria y llevamos el trámite hasta la inscripcion de bienes de una manera rapida y secilla</p>
                 </div>
                 <div class="col-lg-2 practicas__box align-self-center">
                     <img src="https://img.icons8.com/carbon-copy/100/000000/scales.png" class="practicas__image" alt="Logo de Daños"/>
@@ -101,45 +99,43 @@
                 <div class="col-lg-2 practicas__box align-self-center">
                     <img src="https://img.icons8.com/wired/64/000000/worker-male.png" class="practicas__image" alt="Logo de Laboral"/>
                     <h6>Derecho Laboral</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta voluptas veniam iste enim blanditiis, dignissimos earum, ad quos quo, dolorum exercitationem atque eveniet quidem placeat sequi dolor aspernatur impedit optio?</p>
+                    <p>Asesoramos tanto a empleados como empleadores. Tratamos accidentes de trabajo y reclamos ante las juntas medicas. Realizamos intercambio epistolar y acompañamos a las mediaciones del Seclo</p>
                 </div>
                 <div class="col-lg-2 practicas__box align-self-center">
                     <img src="https://img.icons8.com/ios/50/000000/travel-agency.png" class="practicas__image"/>
                     <h6>Derecho del Turismo</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta voluptas veniam iste enim blanditiis, dignissimos earum, ad quos quo, dolorum exercitationem atque eveniet quidem placeat sequi dolor aspernatur impedit optio?</p>
+                    <p>Contamos con profesionales especializados en Derecho del Turismo. Pueden consultarnos por cancelaciones por COVID, reclamos a aerolineas y agencias de viajes, viajes de egresados y cualquier tematica relacionada.</p>
                 </div>
             </div>
             
             </div>
         </div>
     </div>
-    <footer class="row">
-            <div class="col-md-4 footer__item">
-              <ul class="footer__item--links">
-              <li><a href="contacto.html">Contacto</a></li>
-              <li><a href="registrarse.html">Registrarse</a></li>
-              <li><a href="#">Terminos y Condiciones</a></li>
-              <li><a href="#">Politica de privacidad</a></li>
-              </ul>
-      
-            </div>
-            <div class="col-md-4 footer__item">
-              <p>Nuestra oficina</p>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.183125026664!2d-58.38610508560926!3d-34.599530580460645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac7c2e1a54b%3A0x327c4296e870e09a!2sLibertad%20773%2C%20C1012AAO%20CABA!5e0!3m2!1sen!2sar!4v1621722815140!5m2!1sen!2sar" width="120" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-              <div class="col-md-4 footer__item"> 
-              <p>Encontranos en las redes sociales</p>  
-              <a href="#" class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-twitter"></a>
-              <a href="#" class="fa fa-instagram"></a>
-              <a href="#" class="fa fa-linkedin"></a>
-            </div>
-           
-      
+    <footer class="row" data-aos="fade-right">
+      <div class="col-md-4 footer__item center-block text-center">
+        <ul class="footer__item--links">
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="registrarse.html">Registrarse</a></li>
+          <li><a href="#">Terminos y Condiciones</a></li>
+          <li><a href="#">Politica de privacidad</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 footer__item center-block text-center">
+        <h7> <a href="#" class="fa fa-map-marker"></a>  Direccion</h7>
+        <p>Libertad 457, 6to piso, Ciudad Autonoma de Buenos Aires, Argentina. CP 1014.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.183125026664!2d-58.38610508560926!3d-34.599530580460645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac7c2e1a54b%3A0x327c4296e870e09a!2sLibertad%20773%2C%20C1012AAO%20CABA!5e0!3m2!1sen!2sar!4v1621722815140!5m2!1sen!2sar" width="120" height="100" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
+      </div>
+      <div class="col-md-4 footer__item center-block text-center"> 
+        <p><a href="#" class="fa fa-phone"></a>  11-4435-6757</p>
+        <p><a href="#" class="fa fa-envelope"></a>  estudiofgcm@gmail.com</p>
+        <p>Encontranos en las redes sociales</p>  
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+      </div>                
     </footer>
-      
     <p class="rights">© 2021 FG&CM. Todos los derechos reservados. Prohibida su reproducción total o parcial.</p>
-
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 

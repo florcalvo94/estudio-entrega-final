@@ -19,4 +19,3 @@ Se utilizaron diversas fuentes como Oswald, Lato, Source Sans Serif.
 
 Imágenes:
 Fueron descargadas desde Pexels y cada una cuenta con su atributo “alt” correspondiente.
-
